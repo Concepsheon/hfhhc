@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Habitat For Humanity Hale County</title>
+        <meta name="description" content="Seeking to put God's love into action, Habitat for Humanity brings people together to build homes, communities and hope.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--<link rel="icon" href="images/HERO_icon.png">-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        
+        <section class="social-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="header-contact">
+                            <li><span><i class="far fa-envelope"></i></span> </li>
+                            <li><span><i class="fas fa-phone"></i></span> 334-624-0842</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="social-link-wrapper">
+                            <div><a class="social-icon" href="https://www.facebook.com/HFHHaleCounty/" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="hero">
+            <div class="logo-alt">
+                <img class="img-responsive" src="habitat_logo_resize.png" alt="Habitat For Humanity logo"/>
+            </div>
+            
+            <nav id="main-nav"  class="home-nav" role="navigation">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteer.html">Volunteer</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="employment.html">Employment</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a style="color: #ffc107;" class="nav-link" href="#" target="_blank">Donate</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="text-overlay">
+                <h1 class="display-3">Creating a world where everyone has a decent place to live.</h1>
+                <!--<button style="width: 50%;" class="btn btn-info btn-lg">Donate</button>-->
+            </div>
+        </section>
+        
+        <section>
+            <div class="container text-center info-box">
+                <h2>Seeking to put God's love into action, Habitat for Humanity brings people together to build homes, communities and hope.</h2>
+            </div>
+        </section>
+        
+        <section class="content service-cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="programs.html">
+                            <div class="card service-card">
+                                <span><i class="fas fa-home"></i></span>
+                                <div class="card-body">
+                                    <p class="card-text">Learn About Our Homeownership and Repair Programs.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col">
+                        <a href="volunteer.html">
+                            <div class="card service-card">
+                                <span><i class="fas fa-users"></i></span>
+                                <div class="card-body">
+                                    <p class="card-text">Volunteer To Help Build A New Home In Your Community.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col">
+                        <a href="#" target="_blank">
+                            <div class="card service-card">
+                                <span><i class="fas fa-gift"></i></span>
+                                <div class="card-body">
+                                    <p class="card-text">Donate To Habitat For Humanity Hale County Today.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="footer">
+            <footer>
+                <p class="copyright">&copy; 2018 Habitat For Humanity Hale County</p>
+            </footer>
+        </section>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    </body>
+        
+        <script type="text/javascript">
+            $(function() {
+                console.log('ready');
+                
+                $(".text-overlay, .logo-alt").css("opacity", "1");
+                
+                if($(window).width() <= 660) {
+                    $("nav").addClass('fixed');
+                }
+            });
+        </script>
+</html>
